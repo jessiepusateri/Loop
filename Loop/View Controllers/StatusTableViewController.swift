@@ -85,8 +85,10 @@ final class StatusTableViewController: ChartsTableViewController {
         toolbarItems![0].tintColor = UIColor.COBTintColor
         toolbarItems![4].accessibilityLabel = NSLocalizedString("Bolus", comment: "The label of the bolus entry button")
         toolbarItems![4].tintColor = UIColor.doseTintColor
-        toolbarItems![8].accessibilityLabel = NSLocalizedString("Settings", comment: "The label of the settings button")
-        toolbarItems![8].tintColor = UIColor.secondaryLabelColor
+        toolbarItems![8].accessibilityLabel = NSLocalizedString("Temporary Sensitivity Factor", comment: "The label of the Temporary Sensitivity Factor button")
+        toolbarItems![8].tintColor = UIColor.HIGPurpleColor()
+        toolbarItems![10].accessibilityLabel = NSLocalizedString("Settings", comment: "The label of the settings button")
+        toolbarItems![10].tintColor = UIColor.secondaryLabelColor
     }
 
     override func didReceiveMemoryWarning() {

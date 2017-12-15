@@ -709,11 +709,13 @@
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="p68-fH-iuk"/>
                         <barButtonItem enabled="NO" image="workout" id="8Qz-Cj-oVB"/>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="d5h-bj-8ek"/>
-                        <barButtonItem image="settings" id="PHJ-4n-qiF">
+                        <barButtonItem image="Uploading" id="PHJ-4n-qiF">
                             <connections>
                                 <segue destination="Fr0-ut-OuL" kind="presentation" id="JAY-Kf-UMv"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="YfG-xv-yAI"/>
+                        <barButtonItem image="settings" id="bCb-dZ-XQP"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="Status" id="3kU-n2-fha"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -1136,8 +1138,8 @@
         <image name="workout" width="30" height="29"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="UnO-ql-F0K"/>
-        <segue reference="Isc-NM-GBt"/>
+        <segue reference="viB-eQ-p7y"/>
+        <segue reference="PC7-vP-CUY"/>
         <segue reference="76q-VW-DX3"/>
     </inferredMetricsTieBreakers>
 </document>
