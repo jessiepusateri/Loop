@@ -884,6 +884,10 @@ final class StatusTableViewController: ChartsTableViewController {
 
     @IBAction func unwindFromSettings(_ segue: UIStoryboardSegue) {
     }
+    
+    @IBAction func unwindFromTemporarySensitvityFactorController(_ segue: UIStoryboardSegue) {
+        
+    }
 
     private func createPreMealButtonItem(selected: Bool) -> UIBarButtonItem {
         let item = UIBarButtonItem(image: UIImage.preMealImage(selected: selected), style: .plain, target: self, action: #selector(togglePreMealMode(_:)))
